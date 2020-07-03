@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro do Estoque</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="boot.css" />
+	</head>
+	<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-primary">
+  <a class="navbar-brand" href="#" >
+    <img src="imgs/caixa.png" width="30" height="30" class="d-inline-block align-top" alt="">
+     Controle do Estoque
+  </a>
+</nav>
+<div class="card">
+  <div class="card-body bg-dark">
+     <div class="card border-dark mb-3 bg-info" style="max-width: 18rem;">
+  <div class="card-body text-dark">
+    <h5 class="card-title">Cadastro de Produtos</h5>
+    <p class="card-text"> <form action="/addproduto" method="POST">
+        <div id="add-box">
+            <label>Nome:</label><br>
+            <input type="text" name="nome"><br>
+
+            <label>Descrição:</label><br>
+            <input type="text" name="descricao"><br>
+
+            <label>Código:</label><br>
+            <input type="text" name="codigo"><br>
+
+            <label>Preço:</label><br>
+            <input type="number" step="0.01" name="valor"><br>
+
+            <label>Quantidade adicionada:</label><br>
+            <input type="number" name="quantidade"><br>
+
+            <button type="submit" class="btn btn-secondary" value="Cadastrar">Cadastrar</button>
+        </div>
+    </form></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+         
+
+	</body>
+</html>	

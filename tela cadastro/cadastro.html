@@ -7,33 +7,33 @@
 	</head>
 	<body>
     <!-- Image and text -->
-<nav class="navbar navbar-light bg-primary">
-  <a class="navbar-brand" href="#" >
+<nav class="navbar navbar-light bg-info">
+  <a class="navbar-brand"  >
     <img src="imgs/caixa.png" width="30" height="30" class="d-inline-block align-top" alt="">
      Controle do Estoque
   </a>
 </nav>
-<div class="card">
-  <div class="card-body bg-dark">
-     <div class="card border-dark mb-3 bg-info" style="max-width: 18rem;">
+<div class="card  border-info">
+  <div class="card-body bg-dark ">
+     <div class="card-form border-dark mb-3 bg-info" style="max-width: 18rem;">
   <div class="card-body text-dark">
     <h5 class="card-title">Cadastro de Produtos</h5>
     <p class="card-text"> <form action="/addproduto" method="POST">
         <div id="add-box">
             <label>Nome:</label><br>
-            <input type="text" name="nome"><br>
+            <input class="border border-info" type="text" name="nome"><br>
 
             <label>Descrição:</label><br>
-            <input type="text" name="descricao"><br>
+            <input class="border border-info  " type="text" name="descricao" ><br>
 
             <label>Código:</label><br>
-            <input type="text" name="codigo"><br>
+            <input class="border border-info" type="text" name="codigo"><br>
 
             <label>Preço:</label><br>
-            <input type="number" step="0.01" name="valor"><br>
+            <input class="border border-info" type="number" step="0.01" name="valor"><br>
 
             <label>Quantidade adicionada:</label><br>
-            <input type="number" name="quantidade"><br>
+            <input class="border border-info" type="number" name="quantidade"><br>
 
             <button type="submit" class="btn btn-secondary" value="Cadastrar">Cadastrar</button>
         </div>
@@ -52,6 +52,16 @@
   </div>
 </div>
 
+<!-- Footer -->
+<footer class="page-footer bg-info ">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://recodejr.com/"> TraineeRecodeJR</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 
 
 

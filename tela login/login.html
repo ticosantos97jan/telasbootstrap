@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Remover do Estoque</title>
+		<title>Administrador do Estoque</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="boot.css" />
+        <link rel="stylesheet" href="login.css" />
 	</head>
 	<body>
     <!-- Image and text -->
 <nav class="navbar navbar-light bg-info">
-  <a class="navbar-brand" >
-    <img src="imgs/caixa.png" width="30" height="30" class="d-inline-block align-top" alt="">
-     Controle do Estoque
+  <a class="navbar-brand"  >
+    <img src="imgs/setup.png" width="30" height="30" class="d-inline-block align-top" alt="">
+     Administrador do Estoque
   </a>
 </nav>
 <div class="card  border-info">
   <div class="card-body bg-dark ">
      <div class="card-form border-dark mb-3 bg-info" style="max-width: 18rem;">
   <div class="card-body text-dark">
-    <h5 class="card-title">Remocão  de Produtos</h5>
-    <p class="card-text"> <form action="/addproduto" method="POST">
+    <h5 class="card-title">Login</h5>
+    <p class="card-text"> 
+      <form action="/loginproduto" method="POST">
         <div id="add-box">
+            <label>Usuário:</label><br>
+            <input class="border border-info" type="text" name="nome"><br>
 
-            <label>Código:</label><br>
-            <input class="border border-info" type="text" name="codigo"><br>
+            <label>Senha:</label><br>
+            <input class="border border-info  " type="password" name="senha" ><br>
 
-            <button type="submit" class="btn btn-secondary" value="Cadastrar">Remover</button>
+            <button type="submit" class="btn btn-secondary" value="Cadastrar">Entrar</button>
         </div>
     </form></p>
   </div>

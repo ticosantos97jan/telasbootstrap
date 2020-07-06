@@ -1,0 +1,53 @@
+.btn{
+ margin-top:30px;
+ border-radius:12px; 
+}
+
+.border{
+border-radius: 12px;
+}
+
+html, body{
+   height: 100%;
+   width:100%;
+}
+
+
+.card{
+height:100%;	
+}
+
+.card-form{
+margin:auto;
+margin-top:50px;
+
+}
+
+
+.title{
+
+}
+
+.card-single{
+margin-top:200px;
+
+}
+
+.card-single2{
+margin:auto;
+margin-top:-360px;
+margin-left:350px;	
+}
+.card-single3{
+margin:auto;
+margin-top:-390px;
+margin-left:700px;
+
+}
+
+.card-single4{
+margin:auto;
+margin-top:-375px;
+margin-left:1100px;
+
+}
